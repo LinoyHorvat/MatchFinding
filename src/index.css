@@ -11,8 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.container{ 
+  display: flex;
+  flex-direction: column;
+  /* justify-content:center; */
+  /* height: 100vh; */
+  /* align-items:center; */
+}
 
-.topMenu{
+.topMenu, .bottomMenu{
   display: flex;
   justify-content: space-around;
+}
+.animal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  width: 100px;
 }
